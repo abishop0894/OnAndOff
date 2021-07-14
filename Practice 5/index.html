@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>OnAndOff</title>
+  </head>
+  <body class="container">
+    <header>
+      <h2>Hello! Use the light switch as an indicator of your current mood</h2>
+    </header>
+    <div class="Items">
+      <button
+        onclick="document.getElementById('myImage').src='./images/Off.jpg'"
+      >
+        Off
+      </button>
+
+      <img id="myImage" src="./images/Off.jpg" style="width: 400px" />
+
+      <button
+        onclick="document.getElementById('myImage').src='./images/On.jpg'"
+      >
+        On
+      </button>
+    </div>
+  </body>
+</html>
